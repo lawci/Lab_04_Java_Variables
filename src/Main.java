@@ -9,6 +9,7 @@ public class Main {
         int intQuotient = intOperandA / intOperandB;
         int intModulo = intOperandA % intOperandB;
 
+        // Output statements
         System.out.println("The sum using ints of " + intOperandA + " + " + intOperandB + " is " + intSum);
         System.out.println("The product using ints of " + intOperandA + " * " + intOperandB + " is " + intProduct);
         System.out.println("The difference using ints of " + intOperandA + " - " + intOperandB + " is " + intDifference);
@@ -31,5 +32,24 @@ public class Main {
         System.out.println("The quotient using doubles of " + doubleOperandA + " / " + doubleOperandB + " is " + doubleQuotient);
         System.out.println("The modulo using doubles of " + doubleOperandA + " % " + doubleOperandB + " is " + doubleModulo);
 
+        // More Variable Declarations
+        double myLunchCost = 12.50;
+        int numberOfKids = 3;
+        boolean isRaining = true;
+        double gasPrice = 4.5;
+        int favoriteNumber = 88;
+        double shoeSize = 8.5;
+        int birthMonth = 12;
+        String fullName = "Thomas Law";
+
+        // Output statements
+        System.out.println("The cost of my lunch is: $" + myLunchCost);
+        System.out.println("Number of kids in my family: " + numberOfKids);
+        System.out.println("Is it raining? " + isRaining);
+        System.out.println("Price of a gallon of gas: $" + gasPrice);
+        System.out.println("My favorite number: " + favoriteNumber);
+        System.out.println("My shoe size: " + shoeSize);
+        System.out.println("My birth month: " + birthMonth);
+        System.out.println("My full name is: " + fullName);
     }
 }
