@@ -18,7 +18,7 @@ public class Main {
 
         // Double variables
         double doubleOperandA = 3.50;
-        double doubleOperandB = 2.25;
+        double doubleOperandB = 1.25;
         double doubleSum = doubleOperandA + doubleOperandB;
         double doubleProduct = doubleOperandA * doubleOperandB;
         double doubleDifference = doubleOperandA - doubleOperandB;
@@ -36,8 +36,8 @@ public class Main {
         double myLunchCost = 12.50;
         int numberOfKids = 3;
         boolean isRaining = true;
-        double gasPrice = 4.5;
-        int favoriteNumber = 88;
+        double gasPrice = 3.13;
+        int favoriteNumber = 8;
         double shoeSize = 8.5;
         int birthMonth = 12;
         String fullName = "Thomas Law";
