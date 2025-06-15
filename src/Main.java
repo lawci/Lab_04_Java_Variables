@@ -1,15 +1,28 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        // Integer variables
+        int intOperandA = 5;
+        int intOperandB = 7;
+        int intSum = intOperandA + intOperandB;
+        int intProduct = intOperandA * intOperandB;
+        int intDifference = intOperandA - intOperandB;
+        int intQuotient = intOperandA / intOperandB;
+        int intModulo = intOperandA % intOperandB;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        // Double variables
+        double doubleOperandA = 3.50;
+        double doubleOperandB = 2.25;
+        double doubleSum = doubleOperandA + doubleOperandB;
+        double doubleProduct = doubleOperandA * doubleOperandB;
+        double doubleDifference = doubleOperandA - doubleOperandB;
+        double doubleQuotient = doubleOperandA / doubleOperandB;
+
+        // Output statements
+        System.out.println("Sum (int): " + intOperandA + " + " + intOperandB + " = " + intSum);
+        System.out.println("Product (int): " + intOperandA + " * " + intOperandB + " = " + intProduct);
+        System.out.println("Quotient (int): " + intOperandA + " / " + intOperandB + " = " + intQuotient);
+        System.out.println("Modulo (int): " + intOperandA + " % " + intOperandB + " = " + intModulo);
+        System.out.println("Sum (double): " + doubleOperandA + " + " + doubleOperandB + " = " + doubleSum);
+        System.out.println("Product (double): " + doubleOperandA + " * " + doubleOperandB + " = " + doubleProduct);
     }
 }
